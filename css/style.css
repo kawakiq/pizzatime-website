@@ -1,0 +1,26 @@
+:root {
+    --pizza-red: #dc3545;
+    --pizza-yellow: #ffc107;
+}
+
+.pizza-card {
+    transition: transform 0.3s;
+}
+
+.pizza-card:hover {
+    transform: translateY(-5px);
+}
+
+.cart-item {
+    border-bottom: 1px solid #dee2e6;
+    padding: 10px 0;
+}
+
+.form-check-input:checked {
+    background-color: var(--pizza-red);
+    border-color: var(--pizza-red);
+}
+
+#orderSuccess {
+    display: none;
+}
